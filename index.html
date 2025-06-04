@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juego 3 en Raya</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <h1>Juego 3 en Raya</h1>
+
+  <div class="marcador">
+    <div>Jugador X: <span id="puntos-x">0</span></div>
+    <div>Jugador O: <span id="puntos-o">0</span></div>
+  </div>
+
+  <div class="tablero">
+    <div class="celda"></div>
+    <div class="celda"></div>
+    <div class="celda"></div>
+    <div class="celda"></div>
+    <div class="celda"></div>
+    <div class="celda"></div>
+    <div class="celda"></div>
+    <div class="celda"></div>
+    <div class="celda"></div>
+  </div>
+
+  <div id="estado">
+    Turno de <img id="jugador-turno" src="img/x.png" alt="X" />
+  </div>
+
+  <button id="reiniciar">Reiniciar juego</button>
+
+  <script src="juego.js"></script>
+</body>
+</html>
